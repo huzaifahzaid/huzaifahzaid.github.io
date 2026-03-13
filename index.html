@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Huzaifah Zaid — Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon_512.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-orb orb-3" aria-hidden="true"></div>
+  <div class="scanline" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <div class="brand-shield">
+          <svg width="30" height="34" viewBox="0 0 30 34" fill="none">
+            <path d="M15 1.5L28.5 7V16C28.5 24 22.5 30 15 32.5C7.5 30 1.5 24 1.5 16V7L15 1.5Z" stroke="#00ffc8" stroke-width="1.5" fill="rgba(0,255,200,0.07)"/>
+            <text x="15" y="21" text-anchor="middle" font-family="Space Mono" font-size="9.5" font-weight="700" fill="#00ffc8">HZ</text>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-name">HUZAIFAH ZAID</div>
+          <div class="brand-sub">Cybersecurity Student · Content Strategist</div>
+        </div>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link"><span class="nav-num">01.</span>Home</a></li>
+          <li><a href="#about" class="nav-link"><span class="nav-num">02.</span>About</a></li>
+          <li><a href="#resume" class="nav-link"><span class="nav-num">03.</span>Resume</a></li>
+          <li><a href="#projects" class="nav-link"><span class="nav-num">04.</span>Projects</a></li>
+          <li><a href="#internship" class="nav-link"><span class="nav-num">05.</span>Internship</a></li>
+          <li><a href="#certifications" class="nav-link"><span class="nav-num">06.</span>Certs</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- HERO -->
+  <section id="home" class="hero section">
+    <div class="container hero-inner">
+
+      <div class="hero-badge">
+        <span class="badge-pulse"></span>
+        Open to Opportunities
+      </div>
+
+      <h1 class="hero-title">
+        <span class="ht-line" style="--d:0ms">Securing</span>
+        <span class="ht-line ht-accent" style="--d:120ms">the Future,</span>
+        <span class="ht-line" style="--d:240ms">One System at a Time.</span>
+      </h1>
+
+      <p class="hero-desc">
+        Cybersecurity student focused on <strong>Automotive Security</strong>, ECU hardening &amp; CAN protocol analysis.<br>
+        Passionate about ethical hacking, secure vehicle systems, and continuous learning.
+      </p>
+
+      <div class="hero-stack">
+        <span class="hs-tag">Python</span>
+        <span class="hs-tag">x86 Assembly</span>
+        <span class="hs-tag">C++</span>
+        <span class="hs-tag">Java</span>
+        <span class="hs-tag">Linux</span>
+        <span class="hs-tag">Ethical Hacking</span>
+        <span class="hs-tag">Automotive Security</span>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn-primary" href="#projects">
+          View Projects
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5h11M9 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn-ghost" href="resume.pdf" download>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v8M4 6.5l3 3 3-3M1 12h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Resume PDF
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hs-block">
+          <div class="hs-num" data-target="6">0</div>
+          <div class="hs-lbl">Projects</div>
+        </div>
+        <div class="hs-sep"></div>
+        <div class="hs-block">
+          <div class="hs-num" data-target="8">0</div>
+          <div class="hs-lbl">Certifications</div>
+        </div>
+        <div class="hs-sep"></div>
+        <div class="hs-block">
+          <div class="hs-num" data-target="25" data-suffix=" mo">0</div>
+          <div class="hs-lbl">Exp (months)</div>
+        </div>
+        <div class="hs-sep"></div>
+        <div class="hs-block">
+          <div class="hs-num" data-target="2024" data-nosuf>2024</div>
+          <div class="hs-lbl">Enrolled</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="scroll-track"><div class="scroll-dot"></div></div>
+      <span>scroll down</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-eyebrow">// 02. ABOUT ME</div>
+      <h2 class="section-title">Who I Am</h2>
+
+      <div class="about-layout">
+        <div class="about-left reveal">
+          <div class="about-id-card glass-card">
+            <div class="aic-shield">
+              <svg width="90" height="102" viewBox="0 0 90 102" fill="none">
+                <path d="M45 3L87 20V46C87 68.5 68 86 45 98.5C22 86 3 68.5 3 46V20L45 3Z" stroke="#00ffc8" stroke-width="1.8" fill="rgba(0,255,200,0.05)"/>
+                <text x="45" y="58" text-anchor="middle" font-family="Space Mono" font-size="22" font-weight="700" fill="#00ffc8">HZ</text>
+              </svg>
+            </div>
+            <div class="aic-name">Huzaifah Zaid</div>
+            <div class="aic-title">Cybersecurity Student</div>
+            <div class="aic-loc">📍 Attock, Punjab, Pakistan</div>
+            <div class="aic-rows">
+              <div class="aic-row"><span>University</span><span>Air University, Kamra</span></div>
+              <div class="aic-row"><span>Degree</span><span>BSc Cyber Security</span></div>
+              <div class="aic-row"><span>Focus</span><span>Automotive Security</span></div>
+              <div class="aic-row"><span>Duration</span><span>2024 – 2028</span></div>
+            </div>
+            <div class="aic-socials">
+              <a href="https://github.com/huzaifahzaid" target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/huzaifah-zaid-5197762a6/" target="_blank">LinkedIn</a>
+              <a href="mailto:huzaifah1267@gmail.com">Email</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right reveal" style="--rd:100ms">
+          <p class="ab-para">I'm a <strong>Cybersecurity student</strong> at Air University with a growing interest in <strong>Automotive Cybersecurity</strong> — ECU security, CAN protocol analysis, and secure vehicle systems. I believe that the future of connected transport depends on intelligent, ground-up security design.</p>
+          <p class="ab-para">Recently completed a <strong>2.5-month internship</strong> as a Content Strategist at STEM Wizards Academia, where I planned educational content, post designs, and video production — sharpening my communication and strategy skills.</p>
+          <p class="ab-para">Skilled in <strong>Python, Assembly, C++, Java, Linux</strong>, and cybersecurity fundamentals — always learning, always building secure systems.</p>
+
+          <div class="skill-bars-wrap">
+            <div class="sb-title">Core Proficiencies</div>
+            <div class="sb-item reveal" style="--rd:0ms"><div class="sb-meta"><span>Python</span><span>82%</span></div><div class="sb-track"><div class="sb-fill" style="--w:82%;--c:#00ffc8"></div></div></div>
+            <div class="sb-item reveal" style="--rd:80ms"><div class="sb-meta"><span>C++ / Java</span><span>75%</span></div><div class="sb-track"><div class="sb-fill" style="--w:75%;--c:#3d8bff"></div></div></div>
+            <div class="sb-item reveal" style="--rd:160ms"><div class="sb-meta"><span>x86 Assembly</span><span>68%</span></div><div class="sb-track"><div class="sb-fill" style="--w:68%;--c:#a78bfa"></div></div></div>
+            <div class="sb-item reveal" style="--rd:240ms"><div class="sb-meta"><span>Linux / Bash</span><span>72%</span></div><div class="sb-track"><div class="sb-fill" style="--w:72%;--c:#34d399"></div></div></div>
+            <div class="sb-item reveal" style="--rd:320ms"><div class="sb-meta"><span>Ethical Hacking</span><span>65%</span></div><div class="sb-track"><div class="sb-fill" style="--w:65%;--c:#f87171"></div></div></div>
+          </div>
+
+          <div class="interest-chips">
+            <span>🚗 Automotive Security</span>
+            <span>🔌 ECU Hardening</span>
+            <span>📡 CAN Protocol</span>
+            <span>🔍 Ethical Hacking</span>
+            <span>🌐 Networking</span>
+            <span>🛡 Info Assurance</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section alt-section">
+    <div class="container">
+      <div class="section-eyebrow">// 03. RESUME</div>
+      <h2 class="section-title">Experience &amp; Skills</h2>
+
+      <div class="resume-grid">
+        <div class="resume-block glass-card reveal">
+          <div class="rb-head"><div class="rb-icon-wrap">🎓</div><h3>Education</h3></div>
+          <div class="edu-list">
+            <div class="edu-entry">
+              <div class="edu-dot"></div>
+              <div>
+                <div class="edu-deg">BSc Cyber Security</div>
+                <div class="edu-uni">Air University, Kamra</div>
+                <div class="edu-per">Sep 2024 – Jul 2028</div>
+              </div>
+            </div>
+            <div class="edu-entry">
+              <div class="edu-dot"></div>
+              <div>
+                <div class="edu-deg">HSSC — ICS</div>
+                <div class="edu-uni">Fazaia Degree College</div>
+                <div class="edu-per">Jul 2022 – May 2024</div>
+              </div>
+            </div>
+            <div class="edu-entry">
+              <div class="edu-dot"></div>
+              <div>
+                <div class="edu-deg">SSC — Computer Science</div>
+                <div class="edu-uni">Fazaia Degree College</div>
+                <div class="edu-per">Sep 2020 – Jun 2022</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-block glass-card reveal" style="--rd:100ms">
+          <div class="rb-head"><div class="rb-icon-wrap">💼</div><h3>Experience</h3></div>
+          <div class="exp-block">
+            <div class="exp-role">Content Strategist Intern</div>
+            <div class="exp-company">STEM Wizards Academia · Abbottabad</div>
+            <div class="exp-dates">Jul 2025 – Sep 2025 · 2.5 months</div>
+            <ul class="exp-list">
+              <li>Developed educational content for STEM-related subjects</li>
+              <li>Created structured learning materials, carousels &amp; reels</li>
+              <li>Collaborated on academic and technical content strategy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resume-block glass-card reveal" style="--rd:200ms">
+          <div class="rb-head"><div class="rb-icon-wrap">⚙️</div><h3>Technical Stack</h3></div>
+          <div class="tech-cats">
+            <div class="tc"><div class="tc-label">Programming</div><div class="tc-tags"><span>Python</span><span>Assembly (x86)</span><span>C++</span><span>Java</span></div></div>
+            <div class="tc"><div class="tc-label">Cybersecurity</div><div class="tc-tags"><span>Info Assurance</span><span>Ethical Hacking</span><span>Networking</span><span>CAN Protocol</span></div></div>
+            <div class="tc"><div class="tc-label">Tools &amp; OS</div><div class="tc-tags"><span>Linux</span><span>Ubuntu</span><span>Bash</span><span>MySQL</span><span>JDBC</span></div></div>
+            <div class="tc"><div class="tc-label">Other</div><div class="tc-tags"><span>HTML/CSS</span><span>Content Strategy</span><span>Digital Logic</span><span>Proteus</span></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="download-row reveal">
+        <a class="btn-primary" href="resume.pdf" download>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v9M5 7l3 3 3-3M2 14h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download Full Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-eyebrow">// 04. PROJECTS</div>
+      <h2 class="section-title">What I've Built</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card glass-card reveal" style="--rd:0ms">
+          <div class="pcard-img">
+            <img src="Images/car_maintenance.png" alt="Car Maintenance App">
+            <div class="pcard-overlay">
+              <a href="https://github.com/huzaifahzaid/car-maintenance-tracker.git" target="_blank" class="pco-btn">View on GitHub ↗</a>
+            </div>
+            <div class="pcard-badge" style="--bc:#3d8bff">Java · MySQL</div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-num">01</div>
+            <h3>Car Maintenance App</h3>
+            <p>Java Swing desktop app with MySQL backend. Login/register, full CRUD dashboard, maintenance logs — real-world OOP project.</p>
+            <div class="pcard-foot">
+              <div class="pcard-tags"><span>Java</span><span>Swing</span><span>MySQL</span><span>JDBC</span></div>
+              <a href="https://github.com/huzaifahzaid/car-maintenance-tracker.git" target="_blank" class="pcard-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" style="--rd:80ms">
+          <div class="pcard-img pcard-placeholder" style="--pbg:linear-gradient(135deg,#1a1a2e,#16213e)">
+            <div class="pp-content">
+              <div class="pp-emoji">✂️</div>
+              <div class="pp-glow" style="background:radial-gradient(circle,rgba(167,139,250,.2) 0%,transparent 70%)"></div>
+              <div class="pp-code">
+                <div><span class="c-kw">def</span> <span class="c-fn">play_game</span>():</div>
+                <div>&nbsp;&nbsp;choices = [<span class="c-str">'✊'</span>,<span class="c-str">'✋'</span>,<span class="c-str">'✌'</span>]</div>
+                <div>&nbsp;&nbsp;<span class="c-kw">return</span> random.choice(choices)</div>
+              </div>
+            </div>
+            <div class="pcard-badge" style="--bc:#a78bfa">Python</div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-num">02</div>
+            <h3>Rock Paper Scissors</h3>
+            <p>Classic game in Python with terminal UI, score tracking, best-of series mode and full input validation.</p>
+            <div class="pcard-foot">
+              <div class="pcard-tags"><span>Python</span><span>CLI</span><span>Game Logic</span><span>Random</span></div>
+              <a href="https://github.com/huzaifahzaid" target="_blank" class="pcard-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" style="--rd:160ms">
+          <div class="pcard-img pcard-placeholder" style="--pbg:linear-gradient(135deg,#0d1f1a,#0a1a14)">
+            <div class="pp-content">
+              <div class="pp-emoji">🏫</div>
+              <div class="pp-glow" style="background:radial-gradient(circle,rgba(0,255,200,.15) 0%,transparent 70%)"></div>
+              <div class="pp-code">
+                <div><span class="c-kw">struct</span> <span class="c-fn">Student</span> {</div>
+                <div>&nbsp;&nbsp;<span class="c-ty">string</span> name, id;</div>
+                <div>&nbsp;&nbsp;<span class="c-ty">float</span> gpa;</div>
+                <div>};</div>
+              </div>
+            </div>
+            <div class="pcard-badge" style="--bc:#00ffc8">C++ · DSA</div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-num">03</div>
+            <h3>Smart Campus Management</h3>
+            <p>C++ DSA project — student registration, library, attendance &amp; events management using arrays, structs and file I/O.</p>
+            <div class="pcard-foot">
+              <div class="pcard-tags"><span>C++</span><span>DSA</span><span>Structs</span><span>File I/O</span></div>
+              <a href="https://github.com/huzaifahzaid" target="_blank" class="pcard-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" style="--rd:240ms">
+          <div class="pcard-img pcard-placeholder" style="--pbg:linear-gradient(135deg,#1a0d10,#150a0d)">
+            <div class="pp-content">
+              <div class="pp-emoji">⚙️</div>
+              <div class="pp-glow" style="background:radial-gradient(circle,rgba(248,113,113,.18) 0%,transparent 70%)"></div>
+              <div class="pp-code">
+                <div><span class="c-kw">mov</span> <span class="c-fn">eax</span>, [score]</div>
+                <div><span class="c-kw">cmp</span> eax, <span class="c-str">90</span></div>
+                <div><span class="c-kw">jge</span> <span class="c-fn">grade_A</span></div>
+                <div><span class="c-kw">cmp</span> eax, <span class="c-str">80</span></div>
+                <div><span class="c-kw">jge</span> <span class="c-fn">grade_B</span></div>
+              </div>
+            </div>
+            <div class="pcard-badge" style="--bc:#f87171">x86 ASM · COAL</div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-num">04</div>
+            <h3>Student Grade Calculator</h3>
+            <p>x86 Assembly MASM project. Calculates A–F grades, average, highest &amp; lowest scores. Colorful console via Irvine32.</p>
+            <div class="pcard-foot">
+              <div class="pcard-tags"><span>x86 ASM</span><span>MASM</span><span>Irvine32</span><span>COAL</span></div>
+              <a href="https://github.com/huzaifahzaid" target="_blank" class="pcard-link">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" style="--rd:320ms">
+          <div class="pcard-img">
+            <img src="Images/AP.jpeg" alt="Wireless Charging Prototype">
+            <div class="pcard-overlay"><span class="pco-label">Hardware Project</span></div>
+            <div class="pcard-badge" style="--bc:#fbbf24">Hardware</div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-num">05</div>
+            <h3>Wireless Charging Prototype</h3>
+            <p>Physical prototype demonstrating electromagnetic induction for wireless energy transfer — hands-on hardware engineering.</p>
+            <div class="pcard-foot">
+              <div class="pcard-tags"><span>Hardware</span><span>EM Induction</span><span>Physics</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" style="--rd:400ms">
+          <div class="pcard-img">
+            <img src="Images/DLD.jpeg" alt="4-bit ALU Design">
+            <div class="pcard-overlay"><span class="pco-label">Digital Logic</span></div>
+            <div class="pcard-badge" style="--bc:#60a5fa">DLD</div>
+          </div>
+          <div class="pcard-body">
+            <div class="pcard-num">06</div>
+            <h3>4-bit ALU Design</h3>
+            <p>Gate-level digital logic ALU — breadboard + Proteus simulation. Full arithmetic and logic operations from scratch.</p>
+            <div class="pcard-foot">
+              <div class="pcard-tags"><span>Logic Gates</span><span>Proteus</span><span>Breadboard</span></div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNSHIP -->
+  <section id="internship" class="section alt-section">
+    <div class="container">
+      <div class="section-eyebrow">// 05. INTERNSHIP</div>
+      <h2 class="section-title">STEM Wizards Academia</h2>
+      <p class="section-sub">Content Strategist Intern — 2.5 months of creative content, strategy &amp; production.</p>
+
+      <div class="intern-grid">
+        <div class="intern-card glass-card reveal" style="--rd:0ms">
+          <div class="ic-hd"><span>🎨</span><h3>Post Designs</h3></div>
+          <div class="wg">
+            <a href="https://drive.google.com/file/d/1OShEf-_pJt-PqIQYdgQrD41tfSz9ZOiR/view" target="_blank" class="wgi"><img src="Images/AirAcademic_LinkedIn_Testimonial.png" alt="Post 1"><div class="wgi-ov">View ↗</div></a>
+            <a href="https://drive.google.com/file/d/1c2XgBMrnRzCyf1Vuh7BA5dsyxoj3iSXe/view" target="_blank" class="wgi"><img src="Images/Which animal is the fastest.png" alt="Post 2"><div class="wgi-ov">View ↗</div></a>
+            <a href="https://drive.google.com/file/d/1qGasBN4fUb0PTZAY46MfxSw_WPnWoBTq/view" target="_blank" class="wgi"><img src="Images/Homework Timer Trick!.png" alt="Post 3"><div class="wgi-ov">View ↗</div></a>
+            <a href="https://drive.google.com/file/d/1bOX00sF8aRANbQmcLcxgjhtGQkWi7MxN/view" target="_blank" class="wgi"><img src="Images/AirAcademic_Post_DiyScience_FB.png" alt="Post 4"><div class="wgi-ov">View ↗</div></a>
+          </div>
+        </div>
+        <div class="intern-card glass-card reveal" style="--rd:80ms">
+          <div class="ic-hd"><span>🎬</span><h3>Videos</h3></div>
+          <div class="wg">
+            <a href="https://drive.google.com/file/d/1Grdm8zPGTXkac2FV2JbhPJmEyqwDNx3U/view" target="_blank" class="wgi wgi-video"><video src="videos/DIY Science Reel - Air Academic.mp4" muted></video><div class="wgi-ov">▶ Watch</div></a>
+            <a href="https://drive.google.com/file/d/1jZe0NLqUoT2E9oFSypevziSw9qXPlvAS/view" target="_blank" class="wgi wgi-video"><video src="videos/Animated Riddle.mp4" muted></video><div class="wgi-ov">▶ Watch</div></a>
+          </div>
+        </div>
+        <div class="intern-card glass-card reveal" style="--rd:160ms">
+          <div class="ic-hd"><span>📱</span><h3>Carousels</h3></div>
+          <div class="wg">
+            <a href="https://drive.google.com/file/d/1wIJpsdRyEUeUd_VmucEhPoxOA5cV40Vj/view" target="_blank" class="wgi"><img src="Images/1.png" alt="Carousel 1"><div class="wgi-ov">View ↗</div></a>
+            <a href="https://drive.google.com/file/d/1U1aUBUAFzESGqvMsPZwvCjPN5DddKaUa/view" target="_blank" class="wgi"><img src="Images/2_Minute_Homework_Hack.png" alt="Carousel 2"><div class="wgi-ov">View ↗</div></a>
+            <a href="https://drive.google.com/file/d/1qMqrLv-6Gc367sA72MBRwLGFmgyewi-l/view" target="_blank" class="wgi"><img src="Images/What_DO_We_Do.png" alt="Carousel 3"><div class="wgi-ov">View ↗</div></a>
+          </div>
+        </div>
+        <div class="intern-card glass-card reveal" style="--rd:240ms">
+          <div class="ic-hd"><span>✨</span><h3>Other Works</h3></div>
+          <div class="wg">
+            <a href="https://drive.google.com/file/d/11rDFnoEwAC47vuDY7XNyN9m7umA6jTo7/view" target="_blank" class="wgi"><img src="Images/UI UX Design.png" alt="UI/UX"><div class="wgi-ov">View ↗</div></a>
+            <a href="https://drive.google.com/file/d/1S-Bw3kTWyRGxrEedXITQrPMxZdV13Djy/view" target="_blank" class="wgi"><img src="Images/Brand Marketing.png" alt="Branding"><div class="wgi-ov">View ↗</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-eyebrow">// 06. CERTIFICATIONS</div>
+      <h2 class="section-title">Credentials &amp; Achievements</h2>
+      <p class="section-sub">8 verified certifications across cybersecurity, programming, and technology.</p>
+
+      <div class="cert-grid">
+
+        <div class="cert-card glass-card reveal" style="--rd:0ms">
+          <div class="cc-img-wrap">
+            <img src="Images/Blueteam.png" alt="Blue Team Junior Analyst">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#3d8bff"></span>Security Blue Team</div>
+            <div class="cc-name">Blue Team Junior Analyst</div>
+            <div class="cc-date">Dec 7, 2025 · ID: 862281431</div>
+            <div class="cc-skills">Dark Web Operations · OSINT · Digital Forensics · Vuln Mgmt · Threat Hunting · Network Analysis</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:80ms">
+          <div class="cc-img-wrap">
+            <img src="Images/THM.png" alt="TryHackMe Pre Security">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#39ff14"></span>TryHackMe</div>
+            <div class="cc-name">Pre Security (New) Learning Path</div>
+            <div class="cc-date">Feb 22, 2026 · 19h 10m course</div>
+            <div class="cc-skills">Networking · Linux · Web Security · Fundamentals</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:160ms">
+          <div class="cc-img-wrap">
+            <img src="Images/EV.png" alt="Coursera EV Tech">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified"><a href="https://coursera.org/verify/JPS7GMHUU0ZH" target="_blank" style="color:inherit;text-decoration:none">Verify ↗</a></div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#0056d2"></span>Coursera · Starweaver</div>
+            <div class="cc-name">Master Electric Vehicle Tech: Software Skills</div>
+            <div class="cc-date">Nov 12, 2025</div>
+            <div class="cc-skills">EV Software · Automotive Systems · Tech Skills</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:0ms">
+          <div class="cc-img-wrap">
+            <img src="Images/introduction_to_cip.png" alt="OPSWAT CIP">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#f59e0b"></span>OPSWAT Academy</div>
+            <div class="cc-name">Introduction to Critical Infrastructure Protection</div>
+            <div class="cc-skills">ICS/SCADA · CIP · OT Security</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:80ms">
+          <div class="cc-img-wrap">
+            <img src="Images/Intro to Cyber Security_page-0001.jpg" alt="Cisco Cybersecurity">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#00bceb"></span>Cisco Networking Academy</div>
+            <div class="cc-name">Introduction to Cybersecurity</div>
+            <div class="cc-skills">Cyber Threats · Network Security · Fundamentals</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:160ms">
+          <div class="cc-img-wrap">
+            <img src="Images/Python_Essentials_1_certificate.jpg" alt="Python Essentials 1">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#ffd43b"></span>Python Institute / Cisco</div>
+            <div class="cc-name">Python Essentials 1</div>
+            <div class="cc-skills">Python Basics · OOP · Data Types · Functions</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:0ms">
+          <div class="cc-img-wrap">
+            <img src="Images/Coursera PFE.jpg" alt="Programming for Everybody">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#0056d2"></span>Coursera · Univ. of Michigan</div>
+            <div class="cc-name">Programming for Everybody (Python)</div>
+            <div class="cc-skills">Python · Intro Programming · Variables · Loops</div>
+          </div>
+        </div>
+
+        <div class="cert-card glass-card reveal" style="--rd:80ms">
+          <div class="cc-img-wrap">
+            <img src="Images/Coursera PDS.jpg" alt="Python Data Structures">
+            <div class="cc-img-shine"></div>
+            <div class="cc-verified">✓ Verified</div>
+          </div>
+          <div class="cc-body">
+            <div class="cc-issuer"><span class="cc-dot" style="background:#0056d2"></span>Coursera · Univ. of Michigan</div>
+            <div class="cc-name">Python Data Structures</div>
+            <div class="cc-skills">Lists · Dictionaries · Tuples · File Handling</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt-section">
+    <div class="container">
+      <div class="section-eyebrow">// 07. CONTACT</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Open to internships, collaborations, and cybersecurity conversations.<br>Let's build something secure together.</p>
+
+      <div class="contact-grid">
+        <a href="mailto:huzaifah1267@gmail.com" class="ccard glass-card reveal" style="--rd:0ms">
+          <div class="ccard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="16" rx="3" stroke="#00ffc8" stroke-width="1.7"/><path d="M2 8l10 7 10-7" stroke="#00ffc8" stroke-width="1.7"/></svg>
+          </div>
+          <div class="ccard-label">Email</div>
+          <div class="ccard-val">huzaifah1267@gmail.com</div>
+          <div class="ccard-arrow">→</div>
+        </a>
+        <div class="ccard glass-card reveal" style="--rd:80ms">
+          <div class="ccard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 3h3.5l2 5L8 9.5a11 11 0 005.5 5.5L15 13l5 2V18.5A2.5 2.5 0 0117.5 21C9 21 3 15 3 6.5A2.5 2.5 0 015 4v-1z" stroke="#00ffc8" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="ccard-label">Phone</div>
+          <div class="ccard-val">+92-308-8524458</div>
+        </div>
+        <a href="https://www.linkedin.com/in/huzaifah-zaid-5197762a6/" target="_blank" class="ccard glass-card reveal" style="--rd:160ms">
+          <div class="ccard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="#00ffc8" stroke-width="1.7"/><path d="M7 10v7M7 7v.01M11 17v-4a3 3 0 016 0v4M11 10v7" stroke="#00ffc8" stroke-width="1.7" stroke-linecap="round"/></svg>
+          </div>
+          <div class="ccard-label">LinkedIn</div>
+          <div class="ccard-val">huzaifah-zaid-5197762a6</div>
+          <div class="ccard-arrow">→</div>
+        </a>
+        <a href="https://github.com/huzaifahzaid" target="_blank" class="ccard glass-card reveal" style="--rd:240ms">
+          <div class="ccard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="#00ffc8"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48v-1.7C6.73 19.91 6.14 18 6.14 18c-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.57.69.47C19.14 20.16 22 16.42 22 12c0-5.52-4.48-10-10-10z"/></svg>
+          </div>
+          <div class="ccard-label">GitHub</div>
+          <div class="ccard-val">github.com/huzaifahzaid</div>
+          <div class="ccard-arrow">→</div>
+        </a>
+      </div>
+
+      <div class="download-row reveal">
+        <a class="btn-primary large" href="resume.pdf" download>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 1v10M6 8.5l3 3 3-3M2 16h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download Full Resume PDF
+        </a>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <svg width="26" height="30" viewBox="0 0 26 30" fill="none"><path d="M13 1.5L24.5 6V14C24.5 21 19.5 26.5 13 28.5C6.5 26.5 1.5 21 1.5 14V6L13 1.5Z" stroke="#00ffc8" stroke-width="1.4" fill="rgba(0,255,200,0.06)"/><text x="13" y="18.5" text-anchor="middle" font-family="Space Mono" font-size="8" font-weight="700" fill="#00ffc8">HZ</text></svg>
+        <span>Huzaifah Zaid</span>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> · Cybersecurity Portfolio · Built with precision</div>
+      <a href="#home" class="footer-top">↑ Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
